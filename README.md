@@ -2,9 +2,7 @@
 
 **Клонирование репозитория**
 ```
-git clone https://github.com/asquebay/go-debt-book.git
-
-cd go-debt-book
+git clone https://github.com/asquebay/go-debt-book.git && cd go-debt-book
 ```
 
 **Создание таблиц Users и Debts в PostgreSQL**\
