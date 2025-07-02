@@ -29,6 +29,11 @@ sudo -u postgres psql <<-EOSQL
 EOSQL
 ```
 
+**Создание файла среды (.env)**
+```
+go run make_env/make_env.go
+```
+
 **Заполнение таблиц (инициализация, нужно использовать только в первый раз)**\
 go run main.go init
 
