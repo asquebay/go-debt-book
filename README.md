@@ -6,7 +6,7 @@
 **Создание таблиц Users и Debts в PostgreSQL**\
 (выберите только один из двух способов)
 
-1) С помощью GUI для PostgreSQL (pgAdmin и др.):
+**1) С помощью GUI для PostgreSQL (pgAdmin и др.):**
 ```
 CREATE USER "debt_book_owner" -- замените "debt_book_owner" на ваш вариант имени нового пользователя
 LOGIN NOSUPERUSER NOCREATEROLE CREATEDB NOINHERIT REPLICATION NOBYPASSRLS
@@ -18,7 +18,7 @@ SET ROLE debt_book_owner; -- замените debt_book_owner на того по
 CREATE DATABASE debt_book_db ENCODING 'UTF8'; -- замените debt_book_db на имя для новой базы данных
 ```
 
-2) Через терминал:
+**2) Через терминал:**
 ```
 sudo -u postgres psql <<-EOSQL
   CREATE USER debt_book_owner NOSUPERUSER NOCREATEROLE CREATEDB NOINHERIT REPLICATION NOBYPASSRLS CONNECTION LIMIT -1; -- замените debt_book_owner на ваш вариант имени нового пользователя
