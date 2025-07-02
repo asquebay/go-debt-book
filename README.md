@@ -3,7 +3,8 @@
 
 [user@nixos:~]$ cd go-debt-book
 
-**Создание таблиц Users и Debts в PostgreSQL**
+**Создание таблиц Users и Debts в PostgreSQL**\
+(выберите только один из двух способов)
 
 1) С помощью GUI для PostgreSQL (pgAdmin и др.):
 ```
