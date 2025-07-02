@@ -1,7 +1,11 @@
 ## **Установка:**
-[user@nixos:~]$ git clone https://github.com/asquebay/go-debt-book.git
 
-[user@nixos:~]$ cd go-debt-book
+**Клонирование репозитория**
+```
+git clone https://github.com/asquebay/go-debt-book.git
+
+cd go-debt-book
+```
 
 **Создание таблиц Users и Debts в PostgreSQL**\
 (выберите только один из двух способов)
