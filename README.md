@@ -1,4 +1,4 @@
-## **Установка:**\
+## **Установка:**
 [user@nixos:~]$ git clone https://github.com/asquebay/go-debt-book.git
 
 [user@nixos:~]$ cd go-debt-book
